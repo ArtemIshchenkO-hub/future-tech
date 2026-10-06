@@ -1,0 +1,23 @@
+{
+  "name": "future-tech",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/future-tech/",
+    "preview": "vite preview",
+    "sass-watch": "sass --watch ."
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "sass": "^1.105.1",
+    "vite": "^5.4.6"
+  },
+  "author": "Artem Ishchenko",
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  }
+}
