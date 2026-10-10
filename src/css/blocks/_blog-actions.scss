@@ -28,10 +28,25 @@
       font-size: rem(14);
     }
 
+    @include hover {
+      color: var(--color-light);
+
+      svg * {
+        fill: var(--color-light);
+      }
+    }
+
+    &--like {
+      @include hover {
+        svg * {
+          fill: var(--color-red);
+        }
+      }
+    }
+
     &.is-active {
       svg * {
         fill: var(--color-red);
-        stroke: var(--color-red);
       }
     }
   }

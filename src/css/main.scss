@@ -23,8 +23,16 @@
 @use 'blocks/person-card';
 @use 'blocks/blog-actions';
 @use 'blocks/blog-card';
+@use 'blocks/download-info';
+@use 'blocks/bordered-grid';
+@use 'blocks/rating-view';
+@use 'blocks/review-card';
 @use 'blocks/card';
 @use 'blocks/tag';
 @use 'blocks/tile';
 @use 'blocks/about-card';
 @use 'blocks/about';
+@use 'blocks/hero-about';
+@use 'blocks/summary';
+@use 'blocks/news-card';
+@use 'blocks/news';
